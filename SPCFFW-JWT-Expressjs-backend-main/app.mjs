@@ -13,7 +13,8 @@ app.use(cors({
         [
             'https://kamal1234567890.github.io',
             'http://localhost:3000',
-            'http://cfconsult.epizy.com'
+            'http://cfconsult.epizy.com',
+            'https://sistem-pakar-certainty-factor-jwt-react.vercel.app/',
         ]
 }))
 app.use(cookieParser())
