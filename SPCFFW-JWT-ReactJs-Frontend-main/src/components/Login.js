@@ -28,9 +28,6 @@ const Login = () => {
                 showConfirmButton: false,
                 timer: 1500
             })
-
-            console.log('res', res)
-
             navigate('/')
         } catch (error) {
             if (error.response) {
@@ -53,7 +50,7 @@ const Login = () => {
                                 </div>
                             }
                             <div className="form-floating rounded-bottom">
-                                <input type="email" className="form-control rounded-0 rounded-top" id="floatingInput" placeholder="name@example.com" value={email} onChange={(e) => setEmail(e.target.value)} />
+                                <input type="text" className="form-control rounded-0 rounded-top" id="floatingInput" placeholder="name@example.com" value={email} onChange={(e) => setEmail(e.target.value)} />
                                 <label form="floatingInput" >Email address</label>
                             </div>
                             <div className="form-floating rounded-bottom">
