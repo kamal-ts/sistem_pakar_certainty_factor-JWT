@@ -21,11 +21,11 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/loginbtn
+POST http://localhost:5000/login
 Content-Type: application/json
 
 {
-    "email": "kamaluddin1623@gmail.com",
+    "email": "kamaluddin1623",
     "password": "123"
 }
 
